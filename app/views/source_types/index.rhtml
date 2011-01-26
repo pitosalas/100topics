@@ -1,0 +1,29 @@
+<div id="sidebar">
+  <h2>Add Source Type</h2>
+  
+  <%= form_remote_tag :url => { :controller => 'source_types', :action => 'add' } %>
+    <label for="type_name">Source Type:</label><br/>
+    <input type="text" name="type[name]" id="type_name" size="30" /><br/><br/>
+    <%= submit_tag 'Add Source Type' %>
+  <%= end_form_tag %>
+  
+  <div id="error"></div>
+</div>
+
+<div id="content">
+  <h2>Source Types</h2>
+
+  <table id="types">
+    <thead>
+      <tr>
+        <td class="nam">Name</td>
+        <td class="com"></td>
+      </tr>
+    </thead>
+    <tbody id="types_body">
+  <% @types.each do |t| %>
+    <%= render :partial => 'type', :object => t %>
+  <% end %>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,88 @@
+<div id="sidebar">
+  <h2 id="action_title">Add Feed</h2>
+
+  <%= form_remote_tag :url => { :controller => 'feeds', :action => 'save' } %>
+    <input type="hidden" name="command" id="action_command" value="add" />
+    <input type="hidden" name="id" id="fid" value="" />
+  
+    <label for="feed_name">Name:</label><br/>
+    <input type="text" name="feed[name]" id="feed_name" size="30"/><br/>
+
+    <label for="feed_description">Description:</label><br/>
+    <textarea name="feed[description]" id="feed_description" rows="3"></textarea><br/>
+
+    <label for="feed_url">URL:</label><br/>
+    <input type="text" name="feed[url]" id="feed_url" size="30"/><br/>
+
+    <label for="feed_html_url">HTML URL:</label><br/>
+    <input type="text" name="feed[html_url]" id="feed_html_url" size="30"/><br/>
+
+    <label for="feed_source_id">Source:</label><br/>
+    <select name="feed[source_id]" id="feed_source_id">
+    <% @sources.each do |s| %>
+      <option value="<%= s.id %>"><%= h s.name %></option>
+    <% end %>
+    </select><br/>
+
+    <label for="feed_topic_id">Topic:</label><br/>
+    <select name="feed[topic_id]" id="feed_topic_id">
+    <% @topics.each do |t| %>
+      <option value="<%= t.id %>"><%= h t.name %></option>
+    <% end %>
+    </select><br/>
+    <input type="text" name="new_topic" id="new_topic" size="30"/><br/><br/>
+
+    <input type="submit" name="commit" value="Add Feed" id="action_submit"/><br/>
+    <%= button_to_remote "Cancel", { :url => { :action => 'cancel_edit' }}, { :id => 'action_cancel', :style => 'display: none;' } %>
+  <%= end_form_tag %>
+  
+  <div id="error"></div>
+</div>
+
+<div id="content">
+  <h2>Feeds</h2>
+  
+  <%= form_remote_tag :url => { :controller => 'feeds', :action => 'select' }, :update => 'feeds' %>
+  <table>
+    <tr>
+      <td>
+        <label for="source">Source:</label><br/>
+        <select name="source">
+          <option value="-1" selected>&lt;Any Source&gt;</option>
+        <% @sources.each do |s| %>
+          <option value="<%= s.id %>"><%= s.name %></option>
+        <% end %>
+        </select>
+      </td>
+      <td>
+        <label for="topic">Topic:</label><br/>
+        <select name="topic">
+          <option value="-1" selected>&lt;Any Topic&gt;</option>
+        <% @topics.each do |t| %>
+          <option value="<%= t.id %>"><%= t.name %></option>
+        <% end %>
+        </select>
+      </td>
+      <td>
+        <br/>
+        <%= submit_tag 'Filter' %>
+      </td>
+    </tr>
+  </table>
+  <%= end_form_tag %>
+  
+  <table>
+    <thead>
+      <tr>
+        <td class="nam">Name</td>
+        <td class="url">URL</td>
+        <td class="sou">Source</td>
+        <td class="top">Topic</td>
+        <td class="com"></td>
+      </tr>
+    </thead>
+    <tbody id="feeds">
+      <%= render :partial => 'feeds', :object => @feeds %>
+    </tbody>
+  </table>
+</div>

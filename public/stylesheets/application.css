@@ -1,0 +1,27 @@
+* { font-family: "Trebuchet MS",Verdana,Tahoma,Arial,sans-serif; }
+body, td, textarea { font-size: 12px; }
+
+#busy    { float: right; }
+#sidebar { float: left; width: 200px; }
+#content { margin-left: 220px; }
+
+#sidebar input { width: 200px; }
+
+/* Tables */
+td.id  { width: 25px; }
+td.nam { width: 150px; }
+td.slu { width: 150px; }
+td.url { width: 250px; }
+td.sou { width: 100px; }
+td.top { width: 100px; }
+td.typ { width: 150px; }
+td.com { width: 80px; }
+
+thead { font-weight: bold; }
+tbody tr { vertical-align: top; }
+
+/* Headers */
+h2 { margin: 0 0 20px 0; font-size: 16px; }
+
+/* Forms */
+select, textarea { width: 200px; }

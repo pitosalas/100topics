@@ -1,0 +1,5 @@
+page.replace_html 'error', ''
+page.visual_effect :fade, "topic_#{@id}", :duration => 0.5, :from => 1, :to => 0
+page.delay(1) do
+  page.remove "topic_#{@id}"
+end

@@ -1,0 +1,14 @@
+page.replace_html 'action_title', 'Edit Feed'
+page['action_command'].value = 'update'
+page['action_submit'].value = 'Save Feed'
+page['fid'].value = @feed.id
+
+page['feed_name'].value = @feed.name
+page.replace_html 'feed_description', @feed.description
+page['feed_url'].value = @feed.url
+page['feed_html_url'].value = @feed.html_url
+page['feed_source_id'].value = @feed.source.id
+page['feed_topic_id'].value = @feed.topic.id
+page['new_topic'].value = ''
+
+page['action_cancel'].show

@@ -1,0 +1,12 @@
+if defined? @source_row
+  page.replace_html 'error', ''
+  page.insert_html :bottom, 'sources_body', "#{@source_row}"
+  page.visual_effect :fade, "source_#{@source.id}", :duration => 0.5, :from => 0, :to => 1
+  page.delay(1) do
+    page['source_name'].value = ''
+    page['source_slug'].value = ''
+    page['source_name'].focus()
+  end
+else
+  page.replace_html 'error', error_messages_for('source')
+end

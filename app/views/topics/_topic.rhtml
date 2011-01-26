@@ -1,0 +1,5 @@
+<tr id="topic_<%= topic.id %>" <%= defined?(adding) && adding ? 'style="opacity: 0.00001;"' : '' %>>
+  <td class="nam"><%= h topic.name %></td>
+  <td class="slu"><%= h topic.slug %></td>
+  <td class="com"><%= link_to_remote 'Delete', :url => { :controller => 'topics', :action => 'delete', :id => topic.id } %></td>
+</tr>

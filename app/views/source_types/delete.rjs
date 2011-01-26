@@ -1,0 +1,9 @@
+if @id == false
+  page.replace_html 'error', 'This type has associated sources. Can\'t delete'
+else
+  page.replace_html 'error', ''
+  page.visual_effect :fade, "type_#{@id}", :duration => 0.5, :from => 1, :to => 0
+  page.delay(1) do
+    page.remove "type_#{@id}"
+  end
+end

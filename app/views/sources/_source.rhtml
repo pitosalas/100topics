@@ -1,0 +1,6 @@
+<tr id="source_<%= source.id %>" <%= defined?(adding) && adding ? 'style="opacity: 0.00001;"' : '' %>>
+  <td class="nam"><%= h source.name %></td>
+  <td class="slu"><%= h source.slug %></td>
+  <td class="typ"><%= h source.source_type.name %></td>
+  <td class="com"><%= link_to_remote 'Delete', :url => { :controller => 'sources', :action => 'delete', :id => source.id } %></td>
+</tr>

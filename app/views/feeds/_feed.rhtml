@@ -1,0 +1,10 @@
+    <tr id="feed_<%= feed.id %>" <%= defined?(adding) && adding ? 'style="opacity: 0.00001;"' : '' %>>
+      <td class="nam" title="<%= h(feed.description) if !feed.description.nil? %>"><%= h feed.name %></td>
+      <td class="url" title="<%= h feed.url %>"><%= h link_excerpt(feed.url) %><% if !feed.html_url.nil? && !feed.html_url.empty? %><br/><%= h link_excerpt(feed.html_url) %>&nbsp;(html)<% end %></td>
+      <td class="sou"><%= h feed.source.name %></td>
+      <td class="top"><%= h feed.topic.name %></td>
+      <td class="com">
+        <%= link_to_remote 'Edit', :url => { :action => 'edit', :id => feed.id } %>
+        <%= link_to_remote 'Delete', :url => { :action => 'delete', :id => feed.id } %>
+      </td>
+    </tr>

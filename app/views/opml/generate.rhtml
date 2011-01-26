@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.1">
+<head>
+    <title><%= @sources.join(' and ') %> on <%= @topics.join(' and ') %></title>
+    <dateCreated><%= Time.now.strftime("%a, %d %b %Y %H:%M:%S GMT") %></dateCreated>
+</head>
+<body>
+<% @feeds.each do |f| %>  <outline title="<%= h (f.source.slug.upcase + ': ' + f.name) %>" text="<%= h ((f.description.nil? || f.description.strip.empty?) ? f.name : f.description.strip) %>" htmlUrl="<%= f.html_url.empty? ? f.url : f.html_url %>" type="rss" xmlUrl="<%= f.url %>" />
+<% end %>
+</body>
+</opml>

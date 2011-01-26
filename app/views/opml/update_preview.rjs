@@ -1,0 +1,2 @@
+page.replace_html :link, "<a href=\"#{@link}\">#{@link}</a>"
+page.replace_html :feeds, render(:partial => 'feeds', :object => @feeds)

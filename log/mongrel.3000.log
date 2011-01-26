@@ -1,0 +1,539 @@
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Changing group to users.
+** Changing user to alg.
+** Starting Rails with production environment...
+Rails Error: Unable to access log file. Please ensure that /u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/../log/production.log exists and is chmod 0666. The log level has been raised to WARN and the output directed to STDERR until the problem is fixed.
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:81:in `initialize': Permission denied - tmp/pids/mongrel.3000.pid (Errno::EACCES)
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:81:in `open'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/configurator.rb:81:in `write_pid_file'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:131:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.0.1/lib/mongrel/command.rb:211:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.0.1/bin/mongrel_rails:243
+	from /usr/bin/mongrel_rails:16:in `load'
+	from /usr/bin/mongrel_rails:16
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Changing group to users.
+** Changing user to alg.
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Changing group to users.
+** Changing user to alg.
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Changing group to users.
+** Changing user to alg.
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Changing group to users.
+** Changing user to alg.
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Changing group to users.
+** Changing user to alg.
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Changing group to users.
+** Changing user to alg.
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Changing group to users.
+** Changing user to alg.
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Changing group to users.
+** Changing user to alg.
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Changing group to users.
+** Changing user to alg.
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Changing group to users.
+** Changing user to alg.
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Changing group to users.
+** Changing user to alg.
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Changing group to users.
+** Changing user to alg.
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Changing group to users.
+** Changing user to alg.
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Changing group to users.
+** Changing user to alg.
+** Starting Rails with production environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid
+** Daemonized, any open files are closed.  Look at tmp/pids/mongrel.3000.pid and log/mongrel.3000.log for info.
+** Starting Mongrel listening at 127.0.0.1:3000
+** Initiating groups for "alg":"users".
+** Changing group to "users".
+** Changing user to "alg".
+** Starting Rails with production environment...
+/u/pitosalas/salas.com/domains/blogbridge.com/tools/100topics/config/boot.rb:26:Warning: Gem::SourceIndex#search support for String patterns is deprecated
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 127.0.0.1:3000
+** Writing PID file to tmp/pids/mongrel.3000.pid

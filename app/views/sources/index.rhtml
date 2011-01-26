@@ -1,0 +1,42 @@
+<div id="sidebar">
+  <h2>Add Source</h2>
+
+  <%= form_remote_tag :url => { :controller => 'sources', :action => 'add' } %>
+    <label for="source_name">Source:</label><br/>
+    <input type="text" name="source[name]" id="source_name" size="30" /><br/>
+    
+    <label for="source_slug">Slug:</label><br/>
+    <input type="text" name="source[slug]" id="source_slug" size="30" /><br/>
+    
+    <label for="source_source_type_id">Type:</label><br/>
+    <select name="source[source_type_id]" id="source_source_type_id">
+    <% SourceType.find(:all).each do |t| %>
+      <option value="<%= t.id %>"><%= t.name %></option>
+    <% end %>
+    </select><br/><br/>
+    
+    <%= submit_tag 'Add Source' %>
+  <%= end_form_tag %>
+  
+  <div id="error"></div>
+</div>
+
+<div id="content">
+  <h2>Sources</h2>
+
+  <table id="sources">
+    <thead>
+      <tr>
+        <td class="nam">Name</td>
+        <td class="slu">Slug</td>
+        <td class="typ">Type</td>
+        <td class="com"></td>
+      </tr>
+    </thead>
+    <tbody id="sources_body">
+  <% @sources.each do |s| %>
+    <%= render :partial => 'source', :object => s %>
+  <% end %>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,12 @@
+if defined? @topic_row
+  page.replace_html 'error', ''
+  page.insert_html :bottom, 'topics_body', "#{@topic_row}"
+  page.visual_effect :fade, "topic_#{@topic.id}", :duration => 0.5, :from => 0, :to => 1
+  page.delay(1) do
+    page['topic_name'].value = ''
+    page['topic_slug'].value = ''
+    page['topic_name'].focus()
+  end
+else
+  page.replace_html 'error', error_messages_for('topic')
+end

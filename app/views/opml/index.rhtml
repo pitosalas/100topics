@@ -1,0 +1,50 @@
+<div id="sidebar">
+</div>
+
+<div id="content">
+  <h2>OPML Links</h2>
+  
+  <form id="source_topic">
+  <table>
+    <tr>
+      <td>
+        <label for="source">Source:</label><br/>
+        <select multiple="yes" size="10" name="sources[]" id="sources">
+        <% @sources.each do |s| %>
+          <option value="<%= s.slug %>"><%= s.name %></option>
+        <% end %>
+        </select>
+      </td>
+      <td>
+        <label for="topic">Topic:</label><br/>
+        <select multiple="yes" size="10" name="topics[]" id="topics">
+        <% @topics.each do |t| %>
+          <option value="<%= t.slug %>"><%= t.name %></option>
+        <% end %>
+        </select>
+      </td>
+    </tr>
+  </table>
+  </form>
+  
+  <h3>Link</h3>
+  
+  <div id="link"></div>
+  
+  <h3>Feed Preview</h3>
+  
+  <table>
+    <thead>
+      <tr>
+        <td class="nam">Name</td>
+        <td class="url">URL</td>
+        <td class="sou">Source</td>
+        <td class="top">Topic</td>
+      </tr>
+    </thead>
+    <tbody id="feeds">
+      <%= render :partial => 'feeds', :object => @feeds %>
+    </tbody>
+  </table>
+</div>
+<%= observe_form 'source_topic', :frequency => 0.5, :url => { :action => 'update_preview' }, :submit => 'source_topic' %>

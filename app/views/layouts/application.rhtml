@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>100 Topics</title>
+  <%= stylesheet_link_tag 'application' %>
+  <%= javascript_include_tag 'prototype', 'effects', 'application' %>
+</head>
+<body>
+  <div id="busy" style="display: none;"><img src="/images/busy.gif"/> Processing ...</div>
+  <div>
+  <p class="navbar">
+    &nbsp;<%= link_to 'Feeds', :controller => 'feeds' %>
+    &nbsp;<%= link_to 'Topics', :controller => 'topics' %>
+    &nbsp;<%= link_to 'Sources', :controller => 'sources' %>
+    &nbsp;<%= link_to 'Types', :controller => 'source_types' %>
+    &nbsp;<%= link_to 'OPML', :controller => 'opml' %>
+  </p>
+  </div>
+
+  <%= @content_for_layout %>
+
+</body>
+</html>

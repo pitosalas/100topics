@@ -1,0 +1,44 @@
+[Sat Jul 28 06:37:19 2007] [warn] (104)Connection reset by peer: mod_fcgid: read data from fastcgi server error.
+[Sat Jul 28 06:37:19 2007] [error] [client 193.138.84.250] Premature end of script headers: dispatch.fcgi
+[Sat Jul 28 07:01:34 2007] [error] [client 193.138.84.250] malformed header from script. Bad header=[]: dispatch.fcgi, referer: http://100.blogbridge.com/opml
+[Sat Jul 28 07:02:47 2007] [error] [client 193.138.84.250] malformed header from script. Bad header=[]: dispatch.fcgi, referer: http://100.blogbridge.com/opml
+[Sat Jul 28 07:04:23 2007] [error] [client 193.138.84.250] malformed header from script. Bad header=[]: dispatch.fcgi, referer: http://100.blogbridge.com/opml
+[Sat Jul 28 07:06:12 2007] [error] [client 193.138.84.250] malformed header from script. Bad header=[]: dispatch.fcgi, referer: http://100.blogbridge.com/opml
+[Sat Jul 28 07:08:56 2007] [error] [client 193.138.84.250] malformed header from script. Bad header=[]: dispatch.fcgi, referer: http://100.blogbridge.com/opml
+[Sat Jul 28 07:10:15 2007] [error] [client 193.138.84.250] malformed header from script. Bad header=[]: dispatch.fcgi, referer: http://100.blogbridge.com/opml
+[Sat Jul 28 07:11:05 2007] [error] [client 193.138.84.250] malformed header from script. Bad header=["a"]: dispatch.fcgi
+[Sat Jul 28 07:11:35 2007] [error] [client 193.138.84.250] malformed header from script. Bad header=["ab"]: dispatch.fcgi
+[Sat Jul 28 07:16:28 2007] [error] [client 193.138.84.250] malformed header from script. Bad header=["ab"]: dispatch.fcgi
+[Sat Jul 28 07:17:17 2007] [error] [client 193.138.84.250] malformed header from script. Bad header=[nil]: dispatch.fcgi
+[Sat Jul 28 07:19:04 2007] [error] [client 193.138.84.250] malformed header from script. Bad header=[nil]: dispatch.fcgi
+[Sat Jul 28 07:20:15 2007] [error] [client 193.138.84.250] malformed header from script. Bad header=[nil]: dispatch.fcgi
+[Sat Jul 28 07:28:44 2007] [error] [client 193.138.84.250] malformed header from script. Bad header=[nil]: dispatch.fcgi
+[Sat Jul 28 07:33:16 2007] [error] [client 193.138.84.250] malformed header from script. Bad header=[]: dispatch.fcgi, referer: http://100.blogbridge.com/opml/
+[Mon Aug 06 12:43:23 2007] [warn] mod_fcgid: read data timeout in 20 seconds
+[Mon Aug 06 12:43:23 2007] [error] [client 64.34.168.137] Premature end of script headers: dispatch.fcgi
+[Sun Aug 19 10:26:24 2007] [warn] mod_fcgid: read data timeout in 20 seconds
+[Sun Aug 19 10:26:24 2007] [error] [client 64.34.168.137] Premature end of script headers: dispatch.fcgi
+[Tue Aug 28 08:29:52 2007] [warn] mod_fcgid: read data timeout in 20 seconds
+[Tue Aug 28 08:29:52 2007] [error] [client 64.34.168.137] Premature end of script headers: dispatch.fcgi
+[Thu Aug 30 08:35:21 2007] [warn] mod_fcgid: read data timeout in 20 seconds
+[Thu Aug 30 08:35:21 2007] [error] [client 64.34.168.137] Premature end of script headers: dispatch.fcgi
+[Fri Aug 31 08:36:22 2007] [warn] mod_fcgid: read data timeout in 20 seconds
+[Fri Aug 31 08:36:22 2007] [error] [client 64.34.168.137] Premature end of script headers: dispatch.fcgi
+[Sat Sep 01 08:37:22 2007] [warn] mod_fcgid: read data timeout in 20 seconds
+[Sat Sep 01 08:37:22 2007] [error] [client 64.34.168.137] Premature end of script headers: dispatch.fcgi
+[Sun Sep 02 08:39:22 2007] [warn] mod_fcgid: read data timeout in 20 seconds
+[Sun Sep 02 08:39:22 2007] [error] [client 64.34.168.137] Premature end of script headers: dispatch.fcgi
+[Mon Sep 03 08:41:22 2007] [warn] mod_fcgid: read data timeout in 20 seconds
+[Mon Sep 03 08:41:22 2007] [error] [client 64.34.168.137] Premature end of script headers: dispatch.fcgi
+[Tue Sep 04 08:59:21 2007] [warn] mod_fcgid: read data timeout in 20 seconds
+[Tue Sep 04 08:59:21 2007] [error] [client 64.34.168.137] Premature end of script headers: dispatch.fcgi
+[Wed Sep 05 09:01:22 2007] [warn] mod_fcgid: read data timeout in 20 seconds
+[Wed Sep 05 09:01:22 2007] [error] [client 64.34.168.137] Premature end of script headers: dispatch.fcgi
+[Thu Sep 06 00:42:54 2007] [warn] mod_fcgid: read data timeout in 20 seconds
+[Thu Sep 06 00:42:54 2007] [error] [client 66.30.204.188] Premature end of script headers: dispatch.fcgi
+[Thu Sep 06 00:42:55 2007] [warn] mod_fcgid: read data timeout in 20 seconds
+[Thu Sep 06 00:42:55 2007] [error] [client 66.30.204.188] Premature end of script headers: dispatch.fcgi
+[Thu Sep 06 09:02:22 2007] [warn] mod_fcgid: read data timeout in 20 seconds
+[Thu Sep 06 09:02:22 2007] [error] [client 64.34.168.137] Premature end of script headers: dispatch.fcgi
+[Sat Sep 08 09:10:23 2007] [warn] mod_fcgid: read data timeout in 20 seconds
+[Sat Sep 08 09:10:23 2007] [error] [client 64.34.168.137] Premature end of script headers: dispatch.fcgi

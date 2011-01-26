@@ -1,0 +1,4 @@
+<tr id="type_<%= type.id %>" <%= defined?(adding) && adding ? 'style="opacity: 0.00001;"' : '' %>>
+  <td class="nam"><%= h type.name %></td>
+  <td class="com"><%= link_to_remote 'Delete', :url => { :controller => 'source_types', :action => 'delete', :id => type.id } %></td>
+</tr>

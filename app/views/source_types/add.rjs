@@ -1,0 +1,11 @@
+if defined? @type_row
+  page.replace_html 'error', ''
+  page.insert_html :bottom, 'types_body', "#{@type_row}"
+  page.visual_effect :fade, "type_#{@type.id}", :duration => 0.5, :from => 0, :to => 1
+  page.delay(1) do
+    page['type_name'].value = ''
+    page['type_name'].focus()
+  end
+else
+  page.replace_html 'error', error_messages_for('type')
+end

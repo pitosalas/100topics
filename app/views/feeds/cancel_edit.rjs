@@ -1,0 +1,12 @@
+page.replace_html 'action_title', 'Add Feed'
+page['action_command'].value = 'add'
+page['action_submit'].value = 'Add Feed'
+page['fid'].value = ''
+
+page['feed_name'].value = ''
+page['feed_description'].value = ''
+page['feed_url'].value = ''
+page['feed_html_url'].value = ''
+page['new_topic'].value = ''
+
+page['action_cancel'].hide
